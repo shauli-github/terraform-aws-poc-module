@@ -13,3 +13,9 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
+
+variable "test" {
+  description = "Test description"
+  type        = string
+  default     = "Test description"
+}
